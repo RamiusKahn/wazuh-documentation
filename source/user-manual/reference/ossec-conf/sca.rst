@@ -118,7 +118,7 @@ Example
   <policies>
     <policy>cis_debian9_L1.yml</policy>
     <policy>sca_unix_audit.yml</policy>
-    <policy enabled="no">cis_debian9_L2.yml/policy>
+    <policy enabled="no">cis_debian9_L2.yml</policy>
   </policies>
 
 Scheduling options
@@ -215,7 +215,7 @@ Configuration example
         <policies>
           <policy>cis_debian9_L1.yml</policy>
           <policy>sca_unix_audit.yml</policy>
-          <policy enabled="no">cis_debian9_L2.yml/policy>
+          <policy enabled="no">cis_debian9_L2.yml</policy>
           <policy>/my/custom/policy/path/my_policy.yaml</policy>
         </policies>
       </sca>
